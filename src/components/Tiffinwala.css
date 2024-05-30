@@ -1,0 +1,26 @@
+.tiffinwala {
+    padding: 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .tiffinwala h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tiffinwala ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tiffinwala h3 {
+    margin-top: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .tiffinwala h3 {
+      font-size: 1.5rem;
+    }
+  }

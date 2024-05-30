@@ -1,0 +1,40 @@
+.chefs {
+    padding: 40px;
+    background-color: #f5f5f5;
+  }
+  
+  .chefs h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .chefs ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .chef-image {
+    width: 100%;
+    max-width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .chef-info {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .chef-info h3 {
+    margin-top: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .chef-image {
+      max-width: 300px;
+    }
+  }
